@@ -1,1 +1,1 @@
-DDE 
+Copyright DDE. All Rights Reserved.
