@@ -25,6 +25,15 @@
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L78E4KSNQD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-L78E4KSNQD');
+</script>
 <body>
     <div class="conteiner position-relative logo width-full text-center">
         <div class="reg text-center logo">

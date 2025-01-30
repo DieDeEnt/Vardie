@@ -32,6 +32,15 @@
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L78E4KSNQD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-L78E4KSNQD');
+</script>
 <body>
     <div class="conteiner">
         <header class="mb-16">
@@ -45,9 +54,16 @@
 
             </div>
         </header>
-        <main class="justify-content-center flex test-text align-items-centor">
-            <div >
-                Main Page
+        <main class="main-container justify-content-center flex test-text align-items-centor">
+            <div class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempus ultricies posuere. 
+                Nam ornare arcu libero, ac aliquet dui consectetur id. Nam nec sodales ipsum. Etiam at felis ante. 
+                Aliquam egestas nibh eget lobortis fringilla. Curabitur vehicula tincidunt leo id eleifend. 
+                Pellentesque elementum venenatis commodo. Pellentesque sit amet nisl at nunc molestie dignissim vel ut augue. 
+                Curabitur facilisis nisi nunc, eu varius enim vehicula et. Nulla commodo lacus ac augue maximus eleifend. 
+                
+            </div>
+            <div class="chart">
+                <canvas id="myChart"></canvas>
             </div>
             
         </main>
@@ -66,5 +82,7 @@
         </div>
     </div>
     
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/js/index.js"></script>
 </body>
 </html>
