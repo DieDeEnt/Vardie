@@ -7,7 +7,7 @@
 
     const DB_USERNAME = "die";
 
-    const DB_PASSWORD = "";
+    const DB_PASSWORD = "4005";
 
 
 ?>
