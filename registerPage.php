@@ -122,7 +122,7 @@
     <footer>
         <div class="conteiner footer mx-8">
             <ul class="justify-content-center ul">
-                <li class="mx-8 mb-24"><a href="#" class="sub-text">Info Site</a></li>
+                <li class="mx-8 mb-24"><a href="/source/actions/ga.php" class="sub-text">Info Site</a></li>
                 <li class="mx-8 mb-24"><a href="#" class="sub-text">Scrambled it to make a type</a></li>
                 <li class="mx-8 mb-24"><a href="index.php" class="sub-text">Public</a></li>
                 <li class="mx-8 mb-24"><a href="#" class="sub-text">There are many variations of passages</a></li>
